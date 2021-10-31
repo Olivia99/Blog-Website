@@ -4,12 +4,12 @@
 <form action="/compose" method="post">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Title</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text"name="title" class="form-control" id="exampleInputEmail1" >
     <label for="postTextArea" class="form-label">Post</label>
-    <textarea name="post" rows="5" cols="30" class="form-control" id="postTextArea"></textarea>
+    <textarea name="content" rows="5" cols="30" class="form-control" id="postTextArea"></textarea>
   </div>
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" name ="submit" class="btn btn-primary">Submit</button>
 </form>
 
 <%- include('partials/footer') -%>
